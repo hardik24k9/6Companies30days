@@ -1,6 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Approach :- 1 brute force (make current val and remaining val -1 , at the end if all are -1 then true else false)
+// Time Complexity :- O(N*N)
+// Space Complexity :- O(N)
+
 // Approach :- 2 using maps
 // Time Complexity :- O(N)
 // Space Complexity :- O(N)
