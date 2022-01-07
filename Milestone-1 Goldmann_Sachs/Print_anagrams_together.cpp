@@ -32,7 +32,7 @@ vector<vector<string>> Anagrams(vector<string>& string_list)
 int main()
 {
     int t;
-    cin>>t;
+    cin >> t;
     while(t--)
     {
         int n;
@@ -48,9 +48,9 @@ int main()
         {
             for(int j=0; j < result[i].size(); j++)
             {
-                cout<<result[i][j]<<" ";
+                cout << result[i][j] << " ";
             }
-            cout<<"\n";
+            cout << "\n";
         }
     }
 
