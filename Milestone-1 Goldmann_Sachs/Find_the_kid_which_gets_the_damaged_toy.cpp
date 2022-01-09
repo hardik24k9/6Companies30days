@@ -20,7 +20,7 @@ int main()
 
         if(k-1+m <= n)
         {
-            cout << k-1+m << endl;
+            cout << (k-1+m) << endl;
         }
         else
         {
