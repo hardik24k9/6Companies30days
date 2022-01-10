@@ -47,11 +47,11 @@ void rotate(vector<vector<int> >& matrix)
     }
     
     // now just reverse every column as it's in anti-clockwise direction
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n/2;i++)
     {
-        for(int j=0;j<n/2;j++)
+        for(int j=0;j<n;j++)
         {
-            swap(matrix[j][i],matrix[n-1-j][i]);
+            swap(matrix[i][j],matrix[n-1-i][j]);
         }
     }
 }
